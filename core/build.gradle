@@ -1,0 +1,7 @@
+// Juego 2D: pantallas, Scene2D, animaciones y efectos
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':domain')
+    api "com.badlogicgames.gdx:gdx:$gdxVersion"
+}
